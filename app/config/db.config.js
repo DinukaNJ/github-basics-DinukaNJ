@@ -2,9 +2,9 @@ import mysql from "mysql2";
    
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'spm_web_app'
+  user: 'b9df1c33fabef7',
+  password: '799e9eb7',
+  database: 'heroku_f84aba608bed187'
 });
   
 export default db;
