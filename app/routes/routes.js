@@ -9,6 +9,4 @@ router.post('/tutorials', createTutorial);
 router.delete('/tutorials/:id', deleteTutorial);
 
 
-
-
 export default router;
