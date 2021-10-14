@@ -116,7 +116,7 @@ export default {
     },
     async deleteTutorial(id) {
       try {
-        await axios.delete(`https://tutorial-management.herokuapp.com/${id}`);
+        await axios.delete(`https://tutorial-management.herokuapp.com/tutorials/${id}`);
         this.getProducts();
         this.$router.push("Add");
       } catch (err) {
